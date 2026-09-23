@@ -80,7 +80,7 @@ MIN_TRAIN_PER_CLASS = 5;
 N_MC = 10;
 MC_SEEDS = (1:N_MC) * 7 + 13;   % 20,27,...,83
 
-MAKE_CLASSIFICATION_MAP = false;
+MAKE_CLASSIFICATION_MAP = true;
 
 fprintf('\n============================================================\n');
 fprintf(' SuperSDF MC10 - %s\n', cfg.name);
