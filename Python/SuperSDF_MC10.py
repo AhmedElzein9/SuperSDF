@@ -442,7 +442,7 @@ def parse_args():
     parser.add_argument(
         "--dataset",
         choices=list(DATASETS.keys()),
-        default="Pavia",
+        default="Indian",
         help="Dataset configuration to use (default: Indian).",
     )
     parser.add_argument(
