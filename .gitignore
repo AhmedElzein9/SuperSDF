@@ -1,0 +1,7 @@
+*.mat
+*.pth
+*.npz
+*.asv
+__pycache__/
+data/*
+!data/README.md
